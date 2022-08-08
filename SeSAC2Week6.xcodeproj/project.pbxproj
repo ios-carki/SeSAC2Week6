@@ -13,6 +13,15 @@
 		C39848A528A08FE800E3F094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39848A328A08FE800E3F094 /* Main.storyboard */; };
 		C39848A728A08FE900E3F094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C39848A628A08FE900E3F094 /* Assets.xcassets */; };
 		C39848AA28A08FE900E3F094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39848A828A08FE900E3F094 /* LaunchScreen.storyboard */; };
+		C39848B328A0901B00E3F094 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C39848B228A0901B00E3F094 /* Kingfisher */; };
+		C39848B628A0902600E3F094 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C39848B528A0902600E3F094 /* Alamofire */; };
+		C39848B928A0903100E3F094 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = C39848B828A0903100E3F094 /* SwiftyJSON */; };
+		C39848BB28A090CF00E3F094 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C39848BA28A090CF00E3F094 /* .gitignore */; };
+		C39848BD28A0911100E3F094 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39848BC28A0911100E3F094 /* APIKey.swift */; };
+		C39848C028A0949B00E3F094 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39848BF28A0949B00E3F094 /* Endpoint.swift */; };
+		C39848C228A0951600E3F094 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39848C128A0951600E3F094 /* URL+Extension.swift */; };
+		C39848C428A0A78C00E3F094 /* KakaoAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39848C328A0A78C00E3F094 /* KakaoAPIManager.swift */; };
+		C39848C628A0ABF100E3F094 /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39848C528A0ABF000E3F094 /* ClosureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,12 @@
 		C39848A628A08FE900E3F094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C39848A928A08FE900E3F094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C39848AB28A08FE900E3F094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39848BA28A090CF00E3F094 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C39848BC28A0911100E3F094 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		C39848BF28A0949B00E3F094 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		C39848C128A0951600E3F094 /* URL+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extension.swift"; sourceTree = "<group>"; };
+		C39848C328A0A78C00E3F094 /* KakaoAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KakaoAPIManager.swift; sourceTree = "<group>"; };
+		C39848C528A0ABF000E3F094 /* ClosureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39848B928A0903100E3F094 /* SwiftyJSON in Frameworks */,
+				C39848B328A0901B00E3F094 /* Kingfisher in Frameworks */,
+				C39848B628A0902600E3F094 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 		C398489128A08FE800E3F094 = {
 			isa = PBXGroup;
 			children = (
+				C39848BA28A090CF00E3F094 /* .gitignore */,
 				C398489C28A08FE800E3F094 /* SeSAC2Week6 */,
 				C398489B28A08FE800E3F094 /* Products */,
 			);
@@ -56,15 +75,28 @@
 		C398489C28A08FE800E3F094 /* SeSAC2Week6 */ = {
 			isa = PBXGroup;
 			children = (
+				C39848BE28A0948800E3F094 /* Network */,
 				C398489D28A08FE800E3F094 /* AppDelegate.swift */,
 				C398489F28A08FE800E3F094 /* SceneDelegate.swift */,
 				C39848A128A08FE800E3F094 /* ViewController.swift */,
 				C39848A328A08FE800E3F094 /* Main.storyboard */,
+				C39848C528A0ABF000E3F094 /* ClosureViewController.swift */,
 				C39848A628A08FE900E3F094 /* Assets.xcassets */,
 				C39848A828A08FE900E3F094 /* LaunchScreen.storyboard */,
 				C39848AB28A08FE900E3F094 /* Info.plist */,
+				C39848BC28A0911100E3F094 /* APIKey.swift */,
 			);
 			path = SeSAC2Week6;
+			sourceTree = "<group>";
+		};
+		C39848BE28A0948800E3F094 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C39848BF28A0949B00E3F094 /* Endpoint.swift */,
+				C39848C128A0951600E3F094 /* URL+Extension.swift */,
+				C39848C328A0A78C00E3F094 /* KakaoAPIManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +115,11 @@
 			dependencies = (
 			);
 			name = SeSAC2Week6;
+			packageProductDependencies = (
+				C39848B228A0901B00E3F094 /* Kingfisher */,
+				C39848B528A0902600E3F094 /* Alamofire */,
+				C39848B828A0903100E3F094 /* SwiftyJSON */,
+			);
 			productName = SeSAC2Week6;
 			productReference = C398489A28A08FE800E3F094 /* SeSAC2Week6.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +148,11 @@
 				Base,
 			);
 			mainGroup = C398489128A08FE800E3F094;
+			packageReferences = (
+				C39848B128A0901B00E3F094 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C39848B428A0902600E3F094 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C39848B728A0903100E3F094 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+			);
 			productRefGroup = C398489B28A08FE800E3F094 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C39848BB28A090CF00E3F094 /* .gitignore in Resources */,
 				C39848AA28A08FE900E3F094 /* LaunchScreen.storyboard in Resources */,
 				C39848A728A08FE900E3F094 /* Assets.xcassets in Resources */,
 				C39848A528A08FE800E3F094 /* Main.storyboard in Resources */,
@@ -140,7 +183,12 @@
 			files = (
 				C39848A228A08FE800E3F094 /* ViewController.swift in Sources */,
 				C398489E28A08FE800E3F094 /* AppDelegate.swift in Sources */,
+				C39848C628A0ABF100E3F094 /* ClosureViewController.swift in Sources */,
+				C39848BD28A0911100E3F094 /* APIKey.swift in Sources */,
 				C39848A028A08FE800E3F094 /* SceneDelegate.swift in Sources */,
+				C39848C428A0A78C00E3F094 /* KakaoAPIManager.swift in Sources */,
+				C39848C028A0949B00E3F094 /* Endpoint.swift in Sources */,
+				C39848C228A0951600E3F094 /* URL+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +341,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,7 +353,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +370,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,7 +382,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +408,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C39848B128A0901B00E3F094 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		C39848B428A0902600E3F094 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C39848B728A0903100E3F094 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C39848B228A0901B00E3F094 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C39848B128A0901B00E3F094 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C39848B528A0902600E3F094 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C39848B428A0902600E3F094 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C39848B828A0903100E3F094 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C39848B728A0903100E3F094 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C398489228A08FE800E3F094 /* Project object */;
 }
